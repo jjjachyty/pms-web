@@ -1,0 +1,40 @@
+{
+  "name": "pms-web",
+  "version": "1.0.0",
+  "description": "Property management system",
+  "author": "张力 <janly@pccqcpa.com.cn>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "echarts": "^4.0.4",
+    "lodash": "^4.17.5",
+    "nuxt": "^1.0.0",
+    "v-charts": "^1.16.6",
+    "vue-amap": "^0.5.4",
+    "vuetify": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/proxy": "^1.2.4",
+    "ajv": "^6.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-imports": "^1.4.1",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "postcss-loader": "^2.1.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
